@@ -49,10 +49,9 @@ list_of_test = [{'id': 41428829, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:
 EXECUTED, CANCELED = filter_by_state(list_of_test)
 print("Список с указанным значением 'state':", EXECUTED)
 
-print(f"Список с другим значением 'state':", CANCELED)
+print("Список с другим значением 'state':", CANCELED)
 
 
 # Ожидаемый результат (сортировка по убыванию даты):
 sorted_data_desc = sort_by_date(list_of_test)
 print(sorted_data_desc)
-
